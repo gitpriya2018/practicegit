@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74549" started-at="2018-10-10T18:07:00Z" finished-at="2018-10-10T18:08:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="74549" started-at="2018-10-10T18:07:00Z" finished-at="2018-10-10T18:08:15Z">
+      <class name="testscript.Verifylogin">
+        <test-method status="PASS" signature="beforelogintest()[pri:0, instance:testscript.Verifylogin@30a3107a]" name="beforelogintest" is-config="true" duration-ms="29282" started-at="2018-10-10T18:07:00Z" finished-at="2018-10-10T18:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforelogintest -->
+        <test-method status="PASS" signature="login()[pri:4, instance:testscript.Verifylogin@30a3107a]" name="login" duration-ms="9148" started-at="2018-10-10T18:07:30Z" description="verify with valid username and valid password" finished-at="2018-10-10T18:07:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="allLinks()[pri:5, instance:testscript.Verifylogin@30a3107a]" name="allLinks" duration-ms="11899" started-at="2018-10-10T18:07:39Z" description="links printing" finished-at="2018-10-10T18:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allLinks -->
+        <test-method status="PASS" signature="createnewcustomer()[pri:6, instance:testscript.Verifylogin@30a3107a]" name="createnewcustomer" duration-ms="21108" started-at="2018-10-10T18:07:51Z" description=" new customer " finished-at="2018-10-10T18:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewcustomer -->
+        <test-method status="PASS" signature="closebrsr()[pri:0, instance:testscript.Verifylogin@30a3107a]" name="closebrsr" is-config="true" duration-ms="2938" started-at="2018-10-10T18:08:12Z" finished-at="2018-10-10T18:08:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrsr -->
+      </class> <!-- testscript.Verifylogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

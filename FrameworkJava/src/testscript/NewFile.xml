@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testscript" >
+  <test name="TestNGExamp">
+  <groups>
+    <run>
+     
+      <include name="sanity"  />
+    </run>
+  </groups>
+  <classes>
+    <class name="testscript.TestNGExamp"/>
+</classes>
+</test>
+
+
+</suite>
+
