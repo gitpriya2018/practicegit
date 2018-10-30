@@ -29,7 +29,7 @@ public class Callbroweser {
 			 capabilities.setPlatform(Platform.WINDOWS);
 			 capabilities.setCapability("marionette", false);
 
-			driver=new FirefoxDriver(capabilities);
+			//driver=new FirefoxDriver(capabilities);
 			getURLMax();
 			break;
 		case "GC":
